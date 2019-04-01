@@ -1,0 +1,31 @@
+*{
+    /*去除边距*/
+    margin:0;
+    padding: 0;
+    /*html性能优化:虚拟dom,如果一个html标签没有设置css样式,就是虚拟的,
+     所以无论设置多少层div都对性能没有影响*/
+}
+.All_Pages{
+	width:80%;
+	margin:0 auto;
+	padding-top: 60px;
+	/*定位*/
+    position: relative;
+	}
+.Pages{
+	
+	padding-left:5px;
+	padding-top:5px;
+	width:210px;
+	float: left;
+	}
+.Pages_Content{
+	background-color:#F8F8F8;
+}
+	
+.others a{
+	text-decoration:none;
+	color:#333; 
+	color:#A0A0A4;
+}	
+

@@ -1,0 +1,20 @@
+.box ul,.box li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+.box li{
+    line-height:30px;
+    font-size:16px;
+    padding:5px 10px;
+}
+.box li.current{
+    background:#CCCCCC;
+    color:#0000FF;
+    cursor: pointer;
+}
+.box li:hover{
+    background:#CCCCCC;
+    color:#0000FF;
+    cursor: pointer;
+}

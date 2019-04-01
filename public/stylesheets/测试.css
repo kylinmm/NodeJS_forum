@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.kylin_AppMain {
+	margin-top:53px;
+	padding:0;
+	}
+
+.Header{
+	display: flex;
+	justify-content:space-between;
+}
+.Head_Info{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	}
+.Info_item{
+	margin-left:5px;
+	margin-right:5px;	
+	}
+.Info_item div{
+	font-size:14px;
+	color:#777;
+	}
+/*主题主体内容样式*/
+.All_Titles{
+	width:80%;
+	margin:0 auto;
+	}
+.Titles{
+	background-color:#F8F8F8;
+	margin:1px auto;
+	border:1px solid #F8F8F8;
+    border-radius:5px;
+	}
+.TitlesHeader{
+	display:flex;
+	}
